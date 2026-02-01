@@ -1,0 +1,15 @@
+{
+  "source": "user_provided",
+  "target_smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+  "steps": [
+    {
+      "rxn_smiles": "CC(=O)OC1=CC=CC=C1C(=O)O>>OC1=CC=CC=C1C(=O)O.CC(=O)Cl",
+      "confidence": 0.95,
+      "notes": "Esterification step"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2024-01-01T00:00:00Z",
+    "model_version": "example"
+  }
+}

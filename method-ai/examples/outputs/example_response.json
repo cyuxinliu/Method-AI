@@ -1,0 +1,107 @@
+{
+  "procedure": [
+    {
+      "step_number": 1,
+      "action": "Prepare workspace and gather materials",
+      "parameters": {
+        "location": "fume_hood",
+        "ppe": ["lab_coat", "safety_glasses", "gloves"]
+      },
+      "rationale": "Ensure proper safety setup before beginning"
+    },
+    {
+      "step_number": 2,
+      "action": "Weigh starting materials",
+      "parameters": {
+        "scale": "analytical_balance",
+        "target_mass_mg": 500
+      },
+      "rationale": "Accurate measurement is critical for stoichiometry"
+    },
+    {
+      "step_number": 3,
+      "action": "Set up reaction vessel",
+      "parameters": {
+        "vessel": "round_bottom_flask",
+        "accessories": ["magnetic_stirrer", "reflux_condenser"]
+      },
+      "rationale": "Standard setup for reflux conditions"
+    },
+    {
+      "step_number": 4,
+      "action": "Add reagents to vessel",
+      "parameters": {
+        "order": "as_specified_in_protocol",
+        "mixing": "magnetic_stirring"
+      },
+      "rationale": "Order of addition may affect reaction outcome"
+    },
+    {
+      "step_number": 5,
+      "action": "Heat reaction mixture",
+      "parameters": {
+        "heating_method": "heating_mantle",
+        "monitoring": "temperature_probe"
+      },
+      "rationale": "Controlled heating for reaction progress"
+    },
+    {
+      "step_number": 6,
+      "action": "Monitor reaction progress",
+      "parameters": {
+        "method": "visual_or_analytical",
+        "interval": "periodic"
+      },
+      "rationale": "Ensure reaction proceeds as expected"
+    },
+    {
+      "step_number": 7,
+      "action": "Perform workup",
+      "parameters": {
+        "steps": ["cool_to_room_temperature", "transfer", "separate"]
+      },
+      "rationale": "Isolate product from reaction mixture"
+    },
+    {
+      "step_number": 8,
+      "action": "Purify product",
+      "parameters": {
+        "method": "recrystallization",
+        "alternatives": ["filtration", "washing"]
+      },
+      "rationale": "Remove impurities to obtain pure product"
+    },
+    {
+      "step_number": 9,
+      "action": "Dry product",
+      "parameters": {
+        "method": "vacuum_or_air_dry"
+      },
+      "rationale": "Remove residual solvent"
+    },
+    {
+      "step_number": 10,
+      "action": "Characterize and store product",
+      "parameters": {
+        "characterization": "as_available",
+        "storage": "appropriate_container"
+      },
+      "rationale": "Confirm identity and ensure proper storage"
+    }
+  ],
+  "risk_flags": [
+    "Verify all reagent compatibility before starting",
+    "Ensure adequate ventilation (fume_hood_required constraint noted)",
+    "Review heating parameters for scale",
+    "Confirm waste disposal procedures"
+  ],
+  "fallback_options": [
+    "Alternative solvent system if primary not available",
+    "Modified temperature profile for time constraints",
+    "Alternative purification method if recrystallization unsuccessful"
+  ],
+  "citations": [],
+  "disclaimer": "DRAFT PROCEDURE - This is a computer-generated draft intended for review by qualified professionals. It has not been validated and may contain errors. Users must verify all steps, assess risks, and ensure compliance with applicable regulations before execution. No warranty of safety, accuracy, or fitness for purpose is provided.",
+  "version": "0.1.0",
+  "request_id": "example-request-001"
+}

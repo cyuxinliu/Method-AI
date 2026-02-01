@@ -1,0 +1,26 @@
+{
+  "target_smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+  "lab_context": {
+    "scale_mg": 500,
+    "equipment": [
+      "rotovap",
+      "heating_mantle",
+      "reflux_condenser",
+      "magnetic_stirrer",
+      "balance",
+      "pH_meter"
+    ],
+    "purification_methods": [
+      "recrystallization",
+      "filtration",
+      "washing"
+    ],
+    "safety_constraints": [
+      "no_open_flame",
+      "fume_hood_required"
+    ],
+    "experience_level": "grad",
+    "time_budget_hours": 8
+  },
+  "notes": "Standard teaching lab synthesis"
+}
